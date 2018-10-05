@@ -42,6 +42,8 @@ class AddContact extends Component {
 
     // Clear state
     this.setState({ name: "", email: "", phone: "", errors: {} });
+
+    this.props.history.push("/");
   };
 
   render() {
